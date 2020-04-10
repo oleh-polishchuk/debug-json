@@ -14,9 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// Import the Product component from this folder and send it down to ./components/index.js
+import Debug from './Debug';
 
-import axios from "axios";
-
-export const connection = axios.create({
-    baseURL: 'https://jsonplaceholder.typicode.com',
-});
+export default Debug;

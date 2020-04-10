@@ -14,7 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-// Import the Product component from this folder and send it down to ./components/index.js
-import Product from './Product';
 
-export default Product;
+import React from "react";
+
+const Debug = ({ data }) => <pre>{JSON.stringify(data, null, 2)}</pre>;
+
+export default Debug;
