@@ -1,6 +1,6 @@
 {
   "name": "debug-json",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple component with prettified JSON data",
   "main": "dist/build.js",
   "devDependencies": {
@@ -33,7 +33,6 @@
   },
   "author": "oleh.polishchuk.ck@gmail.com",
   "license": "MIT",
-
   "bugs": {
     "url": "https://github.com/oleh-polishchuk/debug-json/issues"
   },
