@@ -1,22 +1,8 @@
 {
-  "name": "sample_react_library",
-  "version": "1.0.0",
-  "description": "This is a sample boilerplate for React Component Library",
+  "name": "debug-json",
+  "version": "0.0.0",
+  "description": "Simple component with prettified JSON data",
   "main": "dist/build.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NGimhana/sample_react_component_library_boilerplate"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
-  },
-  "keywords": [
-    "react",
-    "components"
-  ],
-  "author": "Nadeeshan Gimhana",
-  "license": "Apache-2.0",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
@@ -32,5 +18,24 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "prop-types": "latest"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleh-polishchuk/debug-json.git"
+  },
+  "author": "oleh.polishchuk.ck@gmail.com",
+  "license": "MIT",
+
+  "bugs": {
+    "url": "https://github.com/oleh-polishchuk/debug-json/issues"
+  },
+  "homepage": "https://github.com/oleh-polishchuk/debug-json#readme"
 }
