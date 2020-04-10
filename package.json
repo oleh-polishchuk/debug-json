@@ -4,20 +4,20 @@
   "description": "Simple component with prettified JSON data",
   "main": "dist/build.js",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.4.0",
-    "babel-loader": "^8.0.5",
-    "webpack": "^4.28.3",
-    "webpack-cli": "^3.2.0"
+    "@babel/core": "7.9.0",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/preset-env": "7.9.5",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
   },
   "dependencies": {
-    "@material-ui/core": "^3.9.3",
-    "axios": ">=0.18.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "prop-types": "latest"
+    "@material-ui/core": "3.9.4",
+    "axios": "0.19.2",
+    "prop-types": "latest",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
